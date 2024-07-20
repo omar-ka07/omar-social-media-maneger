@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar - Video Editor & Social Media Manager</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            font-size: 1.1em;
+            color: #444;
+        }
+        .portfolio {
+            margin-bottom: 20px;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .services {
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services ul li {
+            margin-bottom: 10px;
+        }
+        .testimonials {
+            margin-bottom: 20px;
+        }
+        .testimonials blockquote {
+            background-color: #f9f9f9;
+            border-left: 5px solid #3498db;
+            padding: 10px;
+        }
+        .contact-form {
+            margin-bottom: 20px;
+        }
+        .contact-form input[type="text"], 
+        .contact-form input[type="email"], 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        .cta {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Omar</h1>
+            <p>Video Editor & Social Media Manager</p>
+        </header>
+        
+        <div class="contact-info">
+            <p>Email: <a href="mailto:omarward07@gmail.com">omarward07@gmail.com</a></p>
+            <!-- Add phone number and social media links here if desired -->
+        </div>
+        
+        <div class="portfolio">
+            <h2>Portfolio Showcase</h2>
+            <!-- Add images or videos of your work here -->
+        </div>
+        
+        <div class="services">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Video Editing</li>
+                <li>Social Media Strategy</li>
+                <li>Content Creation</li>
+                <li>Campaign Management</li>
+            </ul>
+        </div>
+        
+        <div class="testimonials">
+            <h2>Client Testimonials</h2>
+            <blockquote>
+                "Insert testimonial here."
+                <cite>- Client Name</cite>
+            </blockquote>
+            <!-- Add more testimonials as needed -->
+        </div>
+        
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        
+        <div class="cta">
+            <a href="#">Contact Me Today for a Free Consultation</a>
+        </div>
+        
+    </div>
+    
+    <footer>
+        <p>Contact: <a href="mailto:omarward07@gmail.com">omarward07@gmail.com</a></p>
+        <p>&copy; 2024 Omar. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
